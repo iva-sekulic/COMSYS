@@ -75,7 +75,7 @@ int main()
         fgets(inString, MAX_IN, stdin);  // get some input
         return 3;  // and quit
     }
-
+    //testcomment
     // Ask user for checksum modulo
     printf("\nEnter checksum modulo value, or 0 for parity check: ");
     scanf("%3d", &checkMod);  // get checksum modulo value
